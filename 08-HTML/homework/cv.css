@@ -1,0 +1,30 @@
+body {
+    background: lavender ;
+}
+#contenedor {
+   background: white; margin: 2% ; padding: 5%; border: 1px solid black; 
+}
+#presentacion {
+   display: flex; align-items: stretch; justify-content:space-between; flex-wrap: wrap; word-wrap: break-word;
+}
+#foto {flex: 1;
+   width: 200px; margin: auto 35px;
+}
+h1{ flex: 2; min-width: 300px;
+   margin:auto 0;text-align:center;
+}
+#onelist { flex: 1;
+   list-style:none ; text-align:right; margin: auto 0; padding: 20px;
+}
+ul#onelist li {
+   padding-bottom: 4ex;
+}
+p {
+   text-align:justify
+}
+table {
+   width: 300px;
+}
+#firma{ min-width: 200px;
+   width: 200px;
+}
